@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Periódico Local</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+<header>
+    <h1 class="titulo">El Faro - Periódico Local</h1>
+    <img class="img1" src="img/faro.png" alt="elfaro">
+    <img class="img2" src="img/faro.png" alt="elfaro">
+</header>
+<nav>
+    <div id="menu">
+        <ul class="menup">
+            <li><a href="">noticias</a></li>
+            <li class="divider"></li>
+            <li class="dropdown"><a href="">deportes</a>
+                <ul>
+                    <li><span></span><a href="#Noticias">Tabla de Posiciones</a></li>
+                    <hr>
+                    <li><span></span><a href="#opcion2">Goleadores</a></li>
+                </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="">contacto</a></li>
+            <li class="divider"></li>
+            <li><a href="https://myradioonline.cl/radio-corazon" target="_blank">radio en vivo</a></li>
+            <li class="divider"></li>
+            <li class="dropdown"><a href="">RRSS</a>
+                <ul>
+                    <li><span></span><a href="#Noticias">Facebook</a></li>
+                    <hr>
+                    <li><span></span><a href="#opcion2">Twitter</a></li>
+                    <hr>
+                    <li><span></span><a href="#opcion3">Instagram</a></li>
+                    <hr>
+                    <li><span></span><a href="#opcion4">Whatsapp</a></li>
+                    <hr>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section class="encabezado" id="noticias">
+    <h2 class="h2">Últimas Noticias</h2>
+    <div class="imagen">
+        <img class="img3" src="img/image.png" width="100px" alt="Imagen noticia 1">
+        <img class="img4" src="img/image.png" width="100px" alt="Imagen noticia 1">
+    </div>
+</section>
+<section class="uno" id="noticia">
+    <table class="tablaPrincipal">
+        <thead class="th">
+        <tr class="tr">
+            <th>Título</th>
+            <th>Categoría</th>
+            <th>Resumen</th>
+        </tr>
+        </thead>
+        <tbody class="tbody">
+        <tr>
+            <td class="principal">U de Chile, Lider Absoluto</td>
+            <td>Deporte</td>
+            <td class="resumen">Universidad de Chile dio otra muestra de la solidez futbolística que le ha otorgado Gustavo Álvarez ante Cobreloa. El duelo asomaba como de alta complejidad, pero los azules no tuvieron problemas para imponerse por 3-1 y siguen en la punta del Campeonato Nacional, junto a Iquique. Otro vez, la gestión del trío de delanteros compuesto por Maximiliano Guerrero, Cristina Palacios y Leandro Fernández resultó clave. Encaminó la victoria y después la consolidó con el transcurso de los minutos, en Calama.</td>
+        </tr>
+        <tr>
+            <td class="principal">Dos muertos y siete heridos en una balacera en un bar del noroeste de Miami</td>
+            <td>Noticias Globales</td>
+            <td class="resumen">Una discusión en un establecimiento nocturno en CityPlace Doral terminó con un tiroteo. Los dos fallecidos son un guardia de seguridad del local y su presunto asesino, quien fue neutralizado por agentes del orden. Dos heridos están en estado crítico..</td>
+        </tr>
+        <tr>
+          <td class="principal">¿Qué se espera para la tecnología en 2024?</td>
+          <td>tecnología</td>
+          <td class="resumen">El experto en tecnología, Luis GYG, explica en CNN lo que podemos esperar con el avance de la tecnología en redes sociales, robótica, autos eléctricos y otros para 2024, donde dejaremos el enlace directo a la publicacin , o puedes revisarlo mas abajo <a href="https://www.youtube.com/watch?v=p6vN06ypccM">Enlace Directo</a></td> 
+      </tr>
+
+        </tbody>
+    </table>
+
+    <div class="final">
+        <h3 class="titulo2">Noticia destacada en video</h3>
+        <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/UX0kBLCRC7U?si=PzaTCoZSMQvGks1i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/Gy4dbFQZ2w8?si=biM9VhihiiKegCWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/p6vN06ypccM?si=qlDNDAaxdSek2Ljt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="final2">
+        <h3 class="final3">Noticia destacada en audio, Ulima Cancion de Queen, sacada desde un sotano, los dejamos contemplando este gran exito que nunca vio la luz  </h3>
+        <audio class="audio" controls autoplay loop src="audio/queen.mp3">
+            <p>Tu navegador no soporta audio</p>
+        </audio>
+    </div>
+</section>
+<footer class="ultimo">
+    <p>
+        &copy; <?php echo date("Y"); ?> El Faro - Periódico Local
+    </p>
+</footer>
+</body>
+</html>
